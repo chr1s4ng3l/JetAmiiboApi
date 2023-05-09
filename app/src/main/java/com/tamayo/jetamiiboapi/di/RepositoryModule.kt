@@ -1,5 +1,7 @@
-package com.tamayo.jetamiiboapi.data.rest
+package com.tamayo.jetamiiboapi.di
 
+import com.tamayo.jetamiiboapi.data.rest.RepositoryInterface
+import com.tamayo.jetamiiboapi.data.rest.RepositoryInterfaceImpl
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn
