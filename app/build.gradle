@@ -104,12 +104,6 @@ dependencies {
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4'
 
     /**
-     * SlidingPaneLayout - A layout that allows a user to slide a pane out from the side of the screen to reveal content.
-     * Docs: https://developer.android.com/reference/androidx/slidingpanelayout/widget/SlidingPaneLayout
-     */
-    implementation("androidx.slidingpanelayout:slidingpanelayout:1.2.0")
-
-    /**
      * Coil - A fast, lightweight, and modern image loading library for Android backed by Kotlin.
      * Docs: https://coil-kt.github.io/coil/api/coil/index.html
      */

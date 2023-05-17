@@ -30,7 +30,7 @@ class NetworkModule {
      * @param gson the [Gson] instance used to build [Retrofit]
      */
     @Provides
-    fun provideMoviesService(
+    fun provideService(
         okHttpClient: OkHttpClient,
         gson: Gson
     ): Retrofit =
